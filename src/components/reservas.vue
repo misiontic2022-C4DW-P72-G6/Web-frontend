@@ -1,9 +1,7 @@
 <template>
   <div class="reservas">
     <div class="container_reservas">
-      <h2>Reserva</h2>
       <form v-on:submit.prevent="processReservas">
-        <br />
         <div class="form-group">
           <label>fechaReserva:</label>
           <input
@@ -56,15 +54,14 @@
         </div>
         <br />
         <div class="form-group">
-          <label>medioPago:</label>
+          <label>Medio de pago:</label>
           <input
             type="text"
             v-model="createReservas.medioPago"
             placeholder="Medio de Pago"
           />
         </div>
-        <br />
-
+<br>
         <button type="submit">Reservar</button>
       </form>
     </div>
@@ -169,18 +166,7 @@ export default {
 </script>
 
 <style>
-article {
-  height: 420px;
-  background: #b89a39;
-  width: 400;
-  float: left;
-}
-aside {
-  height: 420px;
-  background: #b89a39;
-  width: 400;
-  float: rigth;
-}
+
 
 .container_reservas button {
   color: rgb(143, 13, 13);
@@ -191,9 +177,9 @@ aside {
   border-radius: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  width: 25%;
+  width: 80%;
   height: 80%;
-  align-items: center;
+  align-items: right;
 }
 .container_reservas button:hover {
   color: #e5e7e9;
@@ -210,9 +196,9 @@ aside {
 }
 .container_reservas {
   width: 100%;
-  height: auto;
+  height: 450px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .container_reservas {

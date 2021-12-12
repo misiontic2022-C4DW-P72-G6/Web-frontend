@@ -78,7 +78,7 @@ export default {
 }
 
 .texto1 button {
-  color: rgb(143, 13, 13);
+  color: rgb(22, 17, 17);
   padding: 10px;
   font-size: 40px;
   box-shadow: 2px 2px 2px 1px rgba(197, 23, 23, 0.2);
@@ -88,7 +88,7 @@ export default {
 
 .texto1 button:hover {
   color: #e5e7e9;
-  background: crimson;
+  background: rgb(123, 131, 16);
   border: 1px solid #283747;
   align-items: center;
 }

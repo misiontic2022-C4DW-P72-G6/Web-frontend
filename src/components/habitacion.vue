@@ -37,7 +37,7 @@
 
       </div>
         
-      <div class="cuadro_contenedor">
+      <div class="cuadro_contenedor1">
         <div class="create-route">
           Id:
         <span>{{ HabitacionesDetailById.Id }}</span>
@@ -70,7 +70,7 @@
 
       </div>
 
-      <div class="cuadro_contenedor">
+      <div class="cuadro_contenedor1">
         <div class="create-route">
           Id:
         <span>{{ HabitacionesDetailById.Id }}</span>
@@ -153,13 +153,13 @@ export default {
 .cuadro_contenedor1 {
   padding: 10px;
   margin-bottom: 10px;
-  background-color: rgba(213, 216, 216, 0.329);
-  border: solid 1px rgb(124, 115, 46);
+  background-color: rgb(245, 245, 245);
+  border: solid 1px red;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px 2px rgba(171, 172, 103, 0.2);
-  width: auto;
+  box-shadow: 3px 3px 3px 2px rgba(197, 23, 23, 0.2);
+  width: 50%;
   height: auto;
 }
 
