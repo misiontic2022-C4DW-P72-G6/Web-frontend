@@ -1,4 +1,4 @@
-# bank_fe
+# Hotel_fe
 
 ## Project setup
 ```

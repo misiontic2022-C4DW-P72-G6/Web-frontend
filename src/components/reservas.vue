@@ -35,7 +35,7 @@
         <div class="form-group">
           <label> Número de personas:</label>
           <input
-            type="text"
+            type="number"
             v-model="createReservas.personas"
             placeholder="personas"
           />
@@ -83,7 +83,7 @@ export default {
         fechaReserva: null,
         fechaInicio: null,
         fechaFin: null,
-        personas: 0,
+        personas: 2,
         idHotel: 1,
         habitacion: "presidencial",
         estado: "reserva inicial",
@@ -145,7 +145,7 @@ export default {
             reserva: this.createReservas,
           },
         })
-        .then((result) => {
+        .then((reserva) => {
           let reservaDetail = {
             idReserva: reserva.idReserva,
             nombrecuentaUsuario: reserva.nombrecuentaUsuario,
