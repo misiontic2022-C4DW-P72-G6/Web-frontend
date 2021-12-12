@@ -1,10 +1,9 @@
 <template>
 
-    <div class="Bienvenido">
-      ¡Registrate!
-      </div>
+    <div class="signUp">
+      
 
-  <div class="signUp_user1">
+  <div class="container_reservas">
    
        
 
@@ -13,42 +12,41 @@
         <label>Username:</label>
         <input type="text" v-model="user.username" placeholder="Usuario" />
         </div>
-        <br /> 
         <div class="form-group">
         <label>Password:</label>
         <input type="password" v-model="user.password" placeholder="Contraseña"/>
         </div>
-        <br /> 
+        
         <div class="form-group">
         <label>Nombres:</label>
         <input type="text" v-model="user.Nombres" placeholder="Nombres" />
         </div>
-        <br /> 
+        
         <div class="form-group">
         <label>Apellidos:</label>
         <input type="text" v-model="user.Apellidos" placeholder="Apellidos" />
         </div>
-            <br /> 
+            
         <div class="form-group">
         <label>No_documento:</label>
          <input type="number" v-model="user.No_documento" placeholder="No_documento" />
          </div>
-        <br /> 
+        
         <div class="form-group">
         <label>Direccion:</label>
         <input type="text" v-model="user.Direccion" placeholder="Dirección" />
         </div>
-        <br /> 
+        
         <div class="form-group">
         <label>Telefono:</label>
         <input type="number" v-model="user.Telefono" placeholder="Télefono" />
         </div>
-        <br /> 
+        
         <div class="form-group">
         <label>Correo:</label>
          <input type="text" v-model="user.Correo" placeholder="Correo" />
          </div>
-        <br />
+        
         <div class="form-group">
          <label>Ciudad:</label>
         <input type="text" v-model="user.Ciudad" placeholder="Ciudad"   >
@@ -57,7 +55,7 @@
         <button type="submit">Registrarse</button>
       </form>
     </div>
-  
+  </div>
 </template>
 
 <script>
@@ -136,8 +134,28 @@ label {
 .signUp_user h2 {
   color: #283747;
 }
+ontainer_signup{
+
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .signUp_user form {
   width: 5%;
+}
+.signUp {
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .signUp_user input {
   padding: 10px;

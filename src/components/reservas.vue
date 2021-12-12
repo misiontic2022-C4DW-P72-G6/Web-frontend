@@ -63,7 +63,8 @@
           />
         </div>
 <br>
-        <button type="submit">Reservar</button>
+        <button type="submit" v-on:click="loadHome">Reservar</button>
+        
       </form>
     </div>
   </div>
@@ -203,7 +204,15 @@ export default {
   align-items: center;
   background-image: url("./imagenes/hot6.jpg"); 
 }
-.container_reservas {
-  vertical-align: super 
+container_reservas{
+
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 </style>

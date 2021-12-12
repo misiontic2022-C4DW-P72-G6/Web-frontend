@@ -36,20 +36,20 @@
              <div class="create-route">
                <img src="./imagenes/Habitacion2.jpg" width="250" height="100" alt="1" />
 
-         <p><strong>Id:</strong> <br />{{ HabitacionesDetailById.Id}}</p>
+         <p><strong>Id:</strong> <br />4</p>
          <p>
-           <strong>Tipo de habitacion:</strong> <span> {{ HabitacionesDetailById.Tipo_Habitacion}}</span>
+           <strong>Tipo de habitacion:</strong> <span> Doble</span>
          </p>
          <p>
-           <strong>Capacidad:</strong><span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
+           <strong>Capacidad:</strong><span>4 personas</span>
          </p>
          <p>
            <strong>Costo:</strong
-           ><span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
+           ><span> $ 500000</span>
         </p>
          <p>
            <strong>Descripcion:</strong
-           ><span>{{ HabitacionesDetailById.Descripcion_Habitacion }}</span>
+           ><span>Habitacion doble con aire acondicionado, y vista al mar</span>
          </p>
          <div class= "boton">
            <button type="container_reservas">
@@ -64,20 +64,20 @@
              <div class="create-route">
                <img src="./imagenes/Habitacion3.jpg" width="250" height="100" alt="1" />
 
-         <p><strong>Id:</strong> <br />{{ HabitacionesDetailById.Id}}</p>
+         <p><strong>Id:</strong> <br />16</p>
          <p>
-           <strong>Tipo de habitacion:</strong> <span> {{ HabitacionesDetailById.Tipo_Habitacion}}</span>
+           <strong>Tipo de habitacion:</strong> <span> presidencial</span>
          </p>
          <p>
-           <strong>Capacidad:</strong><span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
+           <strong>Capacidad:</strong><span>10 personas</span>
          </p>
          <p>
            <strong>Costo:</strong
-           ><span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
+           ><span>700000</span>
         </p>
          <p>
            <strong>Descripcion:</strong
-           ><span>{{ HabitacionesDetailById.Descripcion_Habitacion }}</span>
+           ><span>Habitación con múltiples camas servicio 24h vista al mar y barra de licores</span>
          </p>
          <div class= "boton">
            <button type="container_reservas">
