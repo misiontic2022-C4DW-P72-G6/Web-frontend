@@ -1,18 +1,25 @@
 <template>
       <div class="containerhome">
-  <div class="Bienvenido">¡Bienvenido!</div>
-  <div class="container_reservas">
-    <div class="texto1">
+  
+  <div class="cuadro_contenedor">
+    <div class="create-route">
       <h2>
-        Hola! <span>{{ userDetailById.Nombres }}</span
-        ><br />
+        Hola! <span>{{ userDetailById.Nombres }}</span>
+        </h2>
+        <br />
+        <h3>
         Correo electrónico: <span>{{ userDetailById.Correo }}</span
         ><br />
-        Planea con nosotros tus próximas vacaciones...
-      </h2>
+        </h3>
+        <p>Planea con nosotros tus próximas vacaciones...</p>
+        <p>Ven y conoce los diferentes lugares que tenemos pensados para que disfrutes de un servicio expectacular en los mejores hoteles</p>
+        <br/>
+        <p> Toda nuestra oferta a un solo clic.</p>
+        <br/>
+        <br/>
     <div class=boton>
         <button>
-          <router-link to="./catalogo">Reserva tu Hotel Ideal Aquí</router-link>
+          <router-link to="./catalogo"><h1>Reserva tu Hotel Ideal Aquí</h1></router-link>
         </button>
     </div>
         <div class="texto2"></div>
@@ -21,9 +28,11 @@
       
     </div>
  
-  <div class="container_reservas">
-        <img src="./imagenes/vista.jpeg" width="800" height="400" alt="1" />
+  <div class="cuadro_contenedor">
+    <div class="create-route">
+        <img src="./imagenes/vista.jpeg" width="800" height="470" alt="1" />
         </div>
+         </div>
          </div>
 </template>
 

@@ -179,7 +179,7 @@ catalogoId2:2,
       `,
       variables() {
         return {
-          catalogoId: this.catalogoId2,
+          catalogoId2: this.catalogoId2,
         };
       },
   },
@@ -216,6 +216,7 @@ catalogoId2:2,
 }
 .boton{
 color: #e5e7e9;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .boton button:hover {
   color: #e5e7e9;
