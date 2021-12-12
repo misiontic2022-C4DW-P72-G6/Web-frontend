@@ -12,7 +12,7 @@
             <div class="texto2"></div>
             </div>
                  <div class="detailsimg">
-            <img src="./imagenes/vista.jpeg" width="800" height="400" alt="1" >
+            <img src="./imagenes/vista.jpg" width="800" height="400" alt="1" >
            
 
  

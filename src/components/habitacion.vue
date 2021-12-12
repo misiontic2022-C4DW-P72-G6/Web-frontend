@@ -1,111 +1,96 @@
 <template>
-  <div class="habitacion">
-      
+  <div class="container">
     <div class="create-route">
-      <h1>Habitaciones</h1>
-    </div>
+      <h1><center>Habitaciones</center></h1>
+     </div>
 
-  
-      <div class="cuadro_contenedor1">
-        <div class="create-route">
-        <br> <span> ID:
-          {{ HabitacionesDetailById.Id}}</span>
-          Tipo de habitacion:
-    {{ HabitacionesDetailById.Tipo_habitacion }}
+  <div class="cuadro_contenedor1"> 
+           <div class="create-route">
+             <img src="./imagenes/Habitacion1.jpeg" width="400" height="200" alt="1" />
+
+         <p><strong>Id:</strong> <br />{{ HabitacionesDetailById.Id}}</p>
+         <p>
+           <strong>Tipo de habitacion:</strong> <span> {{ HabitacionesDetailById.Tipo_Habitacion}}</span>
+         </p>
+         <p>
+           <strong>Capacidad:</strong><span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
+         </p>
+         <p>
+           <strong>Costo:</strong
+           ><span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
+        </p>
+         <p>
+           <strong>Descripcion:</strong
+           ><span>{{ HabitacionesDetailById.Descripcion_Habitacion }}</span>
+         </p>
+         <div>
+           <button type="container_reservas">
+            <router-link to="./reservas">Reserva aqui</router-link>
+          </button>
+          </div>
         </div>
-        <br />
 
+  <div class="cuadro_contenedor2"> 
+             <div class="create-route">
+               <img src="./imagenes/Habitacion2.jpeg" width="400" height="200" alt="1" />
+
+         <p><strong>Id:</strong> <br />{{ HabitacionesDetailById.Id}}</p>
+         <p>
+           <strong>Tipo de habitacion:</strong> <span> {{ HabitacionesDetailById.Tipo_Habitacion}}</span>
+         </p>
+         <p>
+           <strong>Capacidad:</strong><span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
+         </p>
+         <p>
+           <strong>Costo:</strong
+           ><span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
+        </p>
+         <p>
+           <strong>Descripcion:</strong
+           ><span>{{ HabitacionesDetailById.Descripcion_Habitacion }}</span>
+         </p>
+         <div>
+           <button type="container_reservas">
+            <router-link to="./reservas">Reserva aqui</router-link>
+          </button>
+          </div>
+    
+    
+        </div>
+
+  <div class="cuadro_contenedor3"> 
+             <div class="create-route">
+               <img src="./imagenes/Habitacion3.jpeg" width="400" height="200" alt="1" />
+
+         <p><strong>Id:</strong> <br />{{ HabitacionesDetailById.Id}}</p>
+         <p>
+           <strong>Tipo de habitacion:</strong> <span> {{ HabitacionesDetailById.Tipo_Habitacion}}</span>
+         </p>
+         <p>
+           <strong>Capacidad:</strong><span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
+         </p>
+         <p>
+           <strong>Costo:</strong
+           ><span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
+        </p>
+         <p>
+           <strong>Descripcion:</strong
+           ><span>{{ HabitacionesDetailById.Descripcion_Habitacion }}</span>
+         </p>
+         <div>
+           <button type="container_reservas">
+            <router-link to="./reservas">Reserva aqui</router-link>
+          </button>
+          </div>
+    
+    
+        </div>    
         
-
-        <div class="create-route">
-          Capacidad:
-        <span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
         </div>
-        <br />
-
-        <div class="create-route">
-          Costo:
-        <span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Descripcion:
-          <span>{{ HabitacionesDetailById.Descripcion_Habitacion}}</span>
-        </div>
-        <br />
-
-      </div>
-        
-      <div class="cuadro_contenedor">
-        <div class="create-route">
-          Id:
-        <span>{{ HabitacionesDetailById.Id }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Tipo de habitacion:
-        <span>{{ HabitacionesDetailById.Tipo_Habitacion }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Capacidad:
-        <span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Costo:
-          <span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Descripcion:
-        <span>{{ HabitacionesDetailById.Descripcion_Habitacion }}</span>
-        </div>
-        <br />
-
-      </div>
-
-      <div class="cuadro_contenedor">
-        <div class="create-route">
-          Id:
-        <span>{{ HabitacionesDetailById.Id }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Tipo de habitacion:
-        <span>{{ HabitacionesDetailById.Tipo_Habitacion }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Capacidad:
-        <span>{{ HabitacionesDetailById.Capacidad_Habitacion }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Costo:
-        <span>{{ HabitacionesDetailById.Costo_Habitacion }}</span>
-        </div>
-        <br />
-
-        <div class="create-route">
-          Descripcion:
-        <span>{{ HabitacionesDetailById.Descripcion_Habitacion }}</span>
-        </div>
-        <br />
-
-      </div>
-        
-  </div>
-  
-
+        </div> 
+        </div> 
+ </div>  
+    <br />
 </template>
 
 <script>
@@ -118,9 +103,9 @@ export default {
       HabitacionId: jwt_decode(localStorage.getItem("token_refresh")).Habitacion_id, 
       
       HabitacionesDetailById: {
-        Id: 12,
+        Id:12,
         Tipo_Habitacion: "Cama doble grande",
-        Capacidad_Habitacion:"3",
+        Capacidad_Habitacion: 3,
         Costo_Habitacion:1000000,
         Descripcion_Habitacion:"Una cama con vista al mar",
       }
@@ -150,47 +135,53 @@ export default {
 </script>
 
 <style>
-.cuadro_contenedor1 {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(213, 216, 216, 0.329);
-  border: solid 1px rgb(124, 115, 46);
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  border-radius: 10px;
-  box-shadow: 3px 3px 3px 2px rgba(171, 172, 103, 0.2);
-  width: auto;
-  height: auto;
-}
-
 .create-route {
-  border-radius: 5px;
-  text-align: left;
-  margin: 1px;
-  padding: 0px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.information {
+.cuadro_contenedor1 {
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  height: 500px;
+  width: auto;
+}
+.cuadro_contenedor2 {
+  display: grid;
+  grid-template-columns: 70% 70% 70%;
+  height: 500px;
+  width: auto;
+}
+.cuadro_contenedor3 {
+  display: grid;
+  grid-template-columns: 170% 170% 170%;
+  height: 500px;
+  width: auto;
+}
+.information1 {
   margin: 0;
   padding: 0%;
   width: 90%;
   height: 90%;
   display: flex;
-  flex-direction: center;
-  justify-content: center;
+  flex-direction: left;
+  justify-content: left;
   align-items: center;
 }
-.information h1 {
+
+.information1 h1 {
   font-size: 60px;
   color: #283747;
 }
-.information h2 {
+.information1 h2 {
   font-size: 40px;
   color: #283747;
 }
-.information span {
-  color: crimson;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.information1 span {
+  color: rgb(26, 20, 21);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
 }
 .details h3 {
   font-size: 35px;
