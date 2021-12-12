@@ -1,27 +1,30 @@
 <template>
-    <div class="Bienvenido">
-      ¡Bienvenido!
+      <div class="containerhome">
+  <div class="Bienvenido">¡Bienvenido!</div>
+  <div class="container_reservas">
+    <div class="texto1">
+      <h2>
+        Hola! <span>{{ userDetailById.Nombres }}</span
+        ><br />
+        Correo electrónico: <span>{{ userDetailById.Correo }}</span
+        ><br />
+        Planea con nosotros tus próximas vacaciones...
+      </h2>
+    <div class=boton>
+        <button>
+          <router-link to="./catalogo">Reserva tu Hotel Ideal Aquí</router-link>
+        </button>
+    </div>
+        <div class="texto2"></div>
       </div>
-
-         <div class="texto1">
-          <h2>Hola!  <span>{{userDetailById.Nombres }}</span><br />
-            Correo electrónico:  <span>{{userDetailById.Correo }}</span><br />
-            Planea con nosotros tus próximas vacaciones...</h2>
-             <br /> <br />  <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
-            <button >  <router-link to="./catalogo">Reserva tu Hotel Ideal Aquí</router-link> </button>
-            <div class="texto2"></div>
-            </div>
-                 <div class="detailsimg">
-            <img src="./imagenes/vista.jpeg" width="800" height="400" alt="1" >
-           
-
+      
+      
+    </div>
  
-
+  <div class="container_reservas">
+        <img src="./imagenes/vista.jpeg" width="800" height="400" alt="1" />
         </div>
-
-
-    
-  
+         </div>
 </template>
 
 <script>
@@ -35,7 +38,6 @@ export default {
       userDetailById: {
         Nombres: "",
         Correo: "",
-        
       },
     };
   },
@@ -46,7 +48,6 @@ export default {
           userDetailById(userId: $userId) {
             Nombres
             Correo
-            
           }
         }
       `,
@@ -61,17 +62,13 @@ export default {
 </script>
 
 <style>
-
-
-
 .texto1 {
- 
   border-radius: 5px;
   text-align: left;
   margin: 1px;
   padding: 0px;
   font-size: 15px;
-  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   height: 420px;
   width: 400;
   float: left;
@@ -92,6 +89,17 @@ export default {
   border: 1px solid #283747;
   align-items: center;
 }
+.containerhome {
+  margin: 0%;
+  padding: 0%;
+  height: 120%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 
-
+  background-image: url("./imagenes/home.jpg");
+  
+  background-position: center center;
+}
 </style>

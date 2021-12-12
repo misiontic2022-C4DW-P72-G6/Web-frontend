@@ -2,7 +2,7 @@
   <div id="app" class="app">
     <div class="header">
       
-      <h1>Hoteles</h1>
+      <h1>Hotelería Team Six</h1>
       
 <nav>
         <button v-if="!is_auth" v-on:click="loadLogIn">Iniciar </button>
@@ -110,11 +110,11 @@ body {
   color: #443412;
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
 }
 .header h1 {
   width: auto;
-  text-align: left;
+  text-align: right;
   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header nav {
