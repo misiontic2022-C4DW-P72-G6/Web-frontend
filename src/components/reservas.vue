@@ -178,9 +178,9 @@ export default {
   border-radius: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  width: 25%;
+  width: 80%;
   height: 80%;
-  align-items: center;
+  align-items: right;
 }
 .container_reservas button:hover {
   color: #e5e7e9;
@@ -197,9 +197,9 @@ export default {
 }
 .container_reservas {
   width: 100%;
-  height: auto;
+  height: 450px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   background-image: url("./imagenes/hot6.jpg"); 
 }

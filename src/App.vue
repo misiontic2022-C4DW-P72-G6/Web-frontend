@@ -2,9 +2,9 @@
   <div id="app" class="app">
     <div class="header">
       
-      <h1>Hoteles</h1>
-      <nav>
-
+      <h1>Hotelería Team Six</h1>
+      
+<nav>
         <button v-if="!is_auth" v-on:click="loadLogIn">Iniciar </button>
         <button v-if="is_auth"  v-on:click="loadHome">Home</button>
         <button v-if="is_auth" v-on:click="loadcatalogo">Catalogo</button>
@@ -13,8 +13,8 @@
         <button v-if="!is_auth" v-on:click="loadSignUp">SignUp</button>
         <button v-if="is_auth"  v-on:click="logOut">LogOut</button>
         
-       
-      </nav>
+       </nav>
+      
     </div>
 
     
@@ -113,17 +113,16 @@ body {
   align-items: center;
 }
 .header h1 {
-  width: 40%;
-  text-align: center;
+  width: auto;
+  text-align: right;
   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header nav {
-  height: 100%;
-  width: 20%;
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 20px;
+  font-size: 10px;
   
 }
 .header nav button {
