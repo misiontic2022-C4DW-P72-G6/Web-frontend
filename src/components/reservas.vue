@@ -1,5 +1,6 @@
 <template>
   <div class="reservas">
+
     <div class="container_reservas">
       <form v-on:submit.prevent="processReservas">
         <div class="form-group">
@@ -177,9 +178,9 @@ export default {
   border-radius: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  width: 80%;
+  width: 25%;
   height: 80%;
-  align-items: right;
+  align-items: center;
 }
 .container_reservas button:hover {
   color: #e5e7e9;
@@ -194,12 +195,13 @@ export default {
   margin-right: 100px;
   border-radius: 15px;
 }
-.container_reservas {
+.reservas {
   width: 100%;
-  height: 450px;
+  height: 500px;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+  background-image: url("./imagenes/hot6.jpg"); 
 }
 .container_reservas {
   vertical-align: super 
